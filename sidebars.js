@@ -30,4 +30,29 @@ const sidebars = {
    */
 };
 
+module.exports = {
+  docs: [
+    {
+      type: 'category',
+      label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+        title: 'ALL BLOGS',
+        description: '-',
+        slug: '/intro/',
+        keywords: ['Android', 'Mobile Pentesting', 'Mobile hacking'],
+        image: '/img/image.png',
+      },
+      "collapsible": false,
+      "collapsed": false,
+    
+
+
+      items: ['doc-markdown', 'webview'],
+    },
+    // Other categories...
+  ],
+};
+
+
 export default sidebars;
